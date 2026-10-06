@@ -1,0 +1,77 @@
+Supplementary detector-conditioned SiV-photon correlations
+Detector-1 fitted H/V minimum: -68.09022338 deg; +/- basis angle: -45.59022338 deg
+
+Shift in radians.
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 17
+    # data points      = 12
+    # variables        = 3
+    chi-square         = 24.3989832
+    reduced chi-square = 2.71099813
+    Akaike info crit   = 14.5156177
+    Bayesian info crit = 15.9703376
+    R-squared          = 0.99296897
+[[Variables]]
+    amplitude:  0.490(5) (0.92%) (init = 0.4813946)
+    frequency:  0.06981317 (fixed)
+    shift:      3.18(2) (0.68%) (init = 3.427192)
+    c:          0.512(4) (0.81%) (init = 0.4878312)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(amplitude, c)     = +0.1972
+    C(amplitude, shift) = -0.1345
+angle_deg detector_count state_1_count probability standard_error fitted_probability
+-68.70000000 242 2 0.00826446 0.00648655 0.02251486
+-52.33636364 245 81 0.33061224 0.03007070 0.28966977
+-35.97272727 250 208 0.83200000 0.02371940 0.81671349
+-19.60909091 264 255 0.96590909 0.01144220 0.98744233
+-3.24545455 276 176 0.63768116 0.02894150 0.60224525
+13.11818182 217 29 0.13364055 0.02322097 0.11148312
+29.48181818 252 29 0.11507937 0.02021757 0.08894028
+45.84545455 244 133 0.54508197 0.03187991 0.56097314
+62.20909091 259 254 0.98069498 0.00894133 0.97569506
+78.57272727 244 210 0.86065574 0.02226766 0.84822562
+94.93636364 259 101 0.38996139 0.03031269 0.32759826
+111.30000000 239 13 0.05439331 0.01490359 0.02251486
+
+Waveplate angle: 20.1 deg; clicks: 13522; state-1 events: 478
+P(0): 0.9647(16); P(1): 0.0353(16)
+
+Shift in radians.
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 13
+    # data points      = 12
+    # variables        = 3
+    chi-square         = 9.96222855
+    reduced chi-square = 1.10691428
+    Akaike info crit   = 3.76672976
+    Bayesian info crit = 5.22144971
+    R-squared          = 0.99467881
+[[Variables]]
+    amplitude:  0.482(5) (1.05%) (init = 0.4763739)
+    frequency:  0.06981317 (fixed)
+    shift:      0.02(2) (121.34%) (init = 0)
+    c:          0.510(5) (0.93%) (init = 0.5521762)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(amplitude, c) = -0.6120
+angle_deg detector_count state_1_count probability standard_error fitted_probability
+-68.70000000 258 256 0.99224806 0.00608701 0.99110508
+-52.33636364 255 197 0.77254902 0.02629368 0.73868388
+-35.97272727 250 66 0.26400000 0.02791035 0.21924744
+-19.60909091 236 10 0.04237288 0.01339444 0.04010524
+-3.24545455 224 96 0.42857143 0.03306806 0.41070496
+13.11818182 283 255 0.90106007 0.01786102 0.89775255
+29.48181818 248 230 0.92741935 0.01665314 0.93180657
+45.84545455 256 105 0.41015625 0.03074535 0.47305210
+62.20909091 241 13 0.05394191 0.01478380 0.05785108
+78.57272727 256 39 0.15234375 0.02254110 0.17164408
+94.93636364 241 167 0.69294606 0.02973457 0.68138774
+111.30000000 261 258 0.98850575 0.00710629 0.99110508
+
+Waveplate angle: 20.1 deg; clicks: 36478; state-1 events: 36158
+P(0): 0.0088(5); P(1): 0.9912(5)

@@ -1,0 +1,80 @@
+Error budget
+
+Supplementary error budget
+Error probabilities in %
+
+Subsystem  Error source                                  XX      YY      ZZ
+Ion        Pumping leakage after herald (MZ EOM)       0.87    0.87    1.45
+Ion        Ion state detection                         0.36    0.36    0.36
+Ion        Double excitation                           0.60    0.60    0.20
+Ion        Other (ion temperature, aberrations)        1.26    1.26    0.57
+QFC        Signal to noise                             1.85    1.85    1.85
+QFC        Bidirectional imbalance                     0.10    0.10    0.10
+Memory     Electron MW pulse errors                    0.30    0.30    0.15
+Memory     Dephasing from environment                  0.34    0.34    0.00
+Memory     Electron fast reset                         0.13    0.13    0.00
+Memory     Nuclear spin flip during sequence           1.00    1.00    1.00
+Memory     Electron spin readout                       0.04    0.04    0.04
+Memory     Finite SiV reflection contrast              1.00    1.00    1.00
+Detection  Undetected heralding photons                1.92    1.92    0.00
+Total error probability                                9.36    9.36    6.54
+Correlator contrast                                   0.813   0.813   0.869
+Predicted fidelity: 87.4 %
+
+LaTeX error budget table
+\begin{table}[tb]
+  \caption{Estimated error budget.}
+  \label{tab:SI:error_budget}
+  \centering
+  \begin{tabular}{llccc}
+    \toprule
+    Subsystem & Error source & XX (\%) & YY (\%) & ZZ (\%) \\
+    \midrule
+    Ion & Pumping leakage after herald (MZ EOM) & 0.87 & 0.87 & 1.45 \\
+     & Ion state detection & 0.36 & 0.36 & 0.36 \\
+     & Double excitation & 0.60 & 0.60 & 0.20 \\
+     & Other (ion temperature, aberrations) & 1.26 & 1.26 & 0.57 \\
+    QFC & Signal to noise & 1.85 & 1.85 & 1.85 \\
+     & Bidirectional imbalance & 0.10 & 0.10 & 0.10 \\
+    Memory & Electron MW pulse errors & 0.30 & 0.30 & 0.15 \\
+     & Dephasing from environment & 0.34 & 0.34 & 0.00 \\
+     & Electron fast reset & 0.13 & 0.13 & 0.00 \\
+     & Nuclear spin flip during sequence & 1.00 & 1.00 & 1.00 \\
+     & Electron spin readout & 0.04 & 0.04 & 0.04 \\
+     & Finite SiV reflection contrast & 1.00 & 1.00 & 1.00 \\
+    Detection & Undetected heralding photons & 1.92 & 1.92 & 0.00 \\
+    \midrule
+    Total error probability & & 9.36 & 9.36 & 6.54 \\
+    Correlator contrast & & 0.813 & 0.813 & 0.869 \\
+    Predicted fidelity (\%) & \multicolumn{4}{c}{87.4} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Error budget by subsystem
+
+Subsystem            Infidelity (%)
+Ion                             4.3
+QFC                             2.9
+Memory                          3.9
+Detection                       1.9
+Predicted fidelity             87.4
+
+LaTeX subsystem table
+\begin{table}[tb]
+  \caption{Estimated infidelity contribution of each subsystem.}
+  \label{tab:error_budget}
+  \centering
+  \begin{tabular}{lc}
+    \toprule
+    Subsystem & Infidelity (\%) \\
+    \midrule
+    Ion & 4.3 \\
+    QFC & 2.9 \\
+    Memory & 3.9 \\
+    Detection & 1.9 \\
+    \midrule
+    Predicted fidelity (\%) & 87.4 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

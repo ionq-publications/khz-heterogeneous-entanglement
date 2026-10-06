@@ -1,0 +1,11 @@
+{
+  "id": 54935,
+  "created_at": "2026-08-06T17:15:28.963678+00:00",
+  "metadata": {
+    "dr2.siv.readout.hi_trsh": 6.0,
+    "dr2.siv.readout.duration": 5e-05,
+    "spcm_dark_count_rate_device": 177.0,
+    "initial_normalization_countrate": 40695.96217254811,
+    "spcm_dark_count_rate_normalization": 1944.0
+  }
+}

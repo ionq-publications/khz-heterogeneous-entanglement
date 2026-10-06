@@ -1,0 +1,9 @@
+{
+  "id": 54242,
+  "created_at": "2026-08-04T20:37:15.532361+00:00",
+  "metadata": {
+    "spcm_dark_count_rate_device": 177.0,
+    "initial_normalization_countrate": 124175.13223308099,
+    "spcm_dark_count_rate_normalization": 1612.0
+  }
+}

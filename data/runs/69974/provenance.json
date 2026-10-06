@@ -1,0 +1,11 @@
+{
+  "id": 69974,
+  "created_at": "2026-09-23T21:43:30.197202+00:00",
+  "metadata": {
+    "dr2.siv.readout.hi_trsh": 4.0,
+    "dr2.siv.readout.duration": 0.0001,
+    "max_attempts_per_cooling": 127,
+    "dr2.siv.fast_readout.hi_trsh": 2.0,
+    "dr2.siv.fast_readout.duration": 3e-06
+  }
+}

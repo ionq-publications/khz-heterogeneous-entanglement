@@ -1,0 +1,35 @@
+Figure 3: Ion-SiV ZZ sweep
+
+   HWP angle (deg)           Mean    Lower error    Upper error
+        0.00000000     0.09200000     0.03146601     0.03128077
+        9.00000000    -0.50800000     0.02726629     0.02736082
+       18.00000000    -0.80800000     0.01868515     0.01880367
+       27.00000000    -0.81600000     0.01820682     0.01840617
+       36.00000000    -0.53200000     0.02691070     0.02668790
+       45.00000000     0.01600000     0.03152130     0.03141986
+       54.00000000     0.46000000     0.02806290     0.02815129
+       63.00000000     0.79200000     0.01939101     0.01932096
+       72.00000000     0.81600000     0.01832958     0.01836718
+       81.00000000     0.44600000     0.02824417     0.02829891
+       90.00000000    -0.00600000     0.03150324     0.03163048
+
+Fitted maximum: 0.84031693 at HWP angle 67.76831248 deg
+Frequency is in radians per HWP degree; shift is in radians.
+
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 17
+    # data points      = 11
+    # variables        = 3
+    chi-square         = 14.4480890
+    reduced chi-square = 1.80601113
+    Akaike info crit   = 8.99933575
+    Bayesian info crit = 10.1930216
+    R-squared          = 0.99638855
+[[Variables]]
+    amplitude:  0.847(9) (1.07%) (init = 0.7819921)
+    frequency:  0.06981317 (fixed)
+    shift:      3.123(14) (0.44%) (init = 3.427192)
+    c:         -0.007(7) (108.77%) (init = -0.004363636)

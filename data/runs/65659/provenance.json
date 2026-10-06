@@ -1,0 +1,10 @@
+{
+  "id": 65659,
+  "created_at": "2026-09-10T18:15:29.068137+00:00",
+  "metadata": {
+    "dr2.siv.readout.hi_trsh": 3.0,
+    "dr2.siv.readout.duration": 5e-05,
+    "dr2.siv.fast_readout.hi_trsh": 2.0,
+    "dr2.siv.fast_readout.duration": 3e-06
+  }
+}

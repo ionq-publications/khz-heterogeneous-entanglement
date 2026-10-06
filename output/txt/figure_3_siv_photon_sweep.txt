@@ -1,0 +1,35 @@
+Figure 3: SiV-photon sweep
+
+  Output HWP (deg)           Mean    Lower error    Upper error
+        0.00000000     0.14400000     0.03122778     0.03133027
+        9.00000000     0.62000000     0.02480788     0.02484390
+       18.00000000     0.88400000     0.01492820     0.01503603
+       27.00000000     0.78600000     0.01966584     0.01961440
+       36.00000000     0.41200000     0.02861565     0.02868549
+       45.00000000    -0.12400000     0.03119891     0.03125188
+       54.00000000    -0.63600000     0.02442253     0.02438546
+       63.00000000    -0.87400000     0.01545281     0.01550166
+       72.00000000    -0.79400000     0.01919403     0.01909195
+       81.00000000    -0.45000000     0.02816597     0.02831274
+       90.00000000     0.16800000     0.03090902     0.03101218
+
+Middle zero crossing: 42.82756620 deg
+Frequency is in radians per HWP degree; shift is in radians.
+
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 17
+    # data points      = 11
+    # variables        = 3
+    chi-square         = 4.21595801
+    reduced chi-square = 0.52699475
+    Akaike info crit   = -4.54920264
+    Bayesian info crit = -3.35551682
+    R-squared          = 0.99917829
+[[Variables]]
+    amplitude:  0.891(8) (0.92%) (init = 0.8372095)
+    frequency:  0.06981317 (fixed)
+    shift:      0.152(13) (8.33%) (init = 0.5711987)
+    c:          0.000(7) (4438.68%) (init = 0.01236364)

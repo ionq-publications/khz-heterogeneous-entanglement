@@ -1,0 +1,77 @@
+Supplementary Ion-493 nm photon ZZ, improved extinction
+
+Detector 1
+Contrast = 98.1(7) %
+
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 21
+    # data points      = 11
+    # variables        = 3
+    chi-square         = 14.0164997
+    reduced chi-square = 1.75206246
+    Akaike info crit   = 8.66573901
+    Bayesian info crit = 9.85942483
+    R-squared          = 0.99779190
+[[Variables]]
+    amplitude:  0.490(3) (0.69%) (init = 0.478817)
+    frequency:  0.06981317 (fixed)
+    shift:      4.946(15) (0.30%) (init = 5.711987)
+    c:          0.499(3) (0.63%) (init = 0.4369703)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(shift, c)         = -0.2418
+    C(amplitude, c)     = +0.2390
+    C(amplitude, shift) = +0.1371
+
+Recorded angle (deg)   Plot angle (deg)     Clicks       P(ion=1)   Standard error
+          0.00000000         0.00000000        553     0.01446655       0.00522678
+         10.00000000        10.00000000        553     0.24231465       0.01823286
+         20.00000000        20.00000000        593     0.53456998       0.02048357
+         30.00000000        30.00000000        567     0.86067019       0.01457055
+         40.00000000        40.00000000        599     0.97829716       0.00605949
+         50.00000000        50.00000000        558     0.91397849       0.01191626
+         60.00000000        60.00000000        592     0.66216216       0.01944292
+         70.00000000        70.00000000        537     0.31657356       0.02007805
+         80.00000000        80.00000000        535     0.05981308       0.01031810
+         90.00000000        90.00000000        550     0.02909091       0.00726746
+        100.00000000       100.00000000        570     0.19473684       0.01660377
+
+Detector 2
+Contrast = 98.7(6) %
+
+[[Model]]
+    (Model(sine) + Model(constant))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 17
+    # data points      = 11
+    # variables        = 3
+    chi-square         = 20.6192578
+    reduced chi-square = 2.57740723
+    Akaike info crit   = 12.9116323
+    Bayesian info crit = 14.1053181
+    R-squared          = 0.99436324
+[[Variables]]
+    amplitude:  0.494(3) (0.64%) (init = 0.475192)
+    frequency:  0.06981317 (fixed)
+    shift:      1.829(17) (0.93%) (init = 2.284795)
+    c:          0.497(3) (0.62%) (init = 0.5726883)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(shift, c)         = +0.3401
+    C(amplitude, c)     = +0.2849
+    C(amplitude, shift) = +0.1644
+
+Recorded angle (deg)   Plot angle (deg)     Clicks       P(ion=1)   Standard error
+          0.00000000         0.00000000        447     0.97091723       0.00808593
+         10.00000000        10.00000000        447     0.75615213       0.02032613
+         20.00000000        20.00000000        407     0.48157248       0.02476732
+         30.00000000        30.00000000        433     0.13394919       0.01641154
+         40.00000000        40.00000000        401     0.00498753       0.00392582
+         50.00000000        50.00000000        442     0.08597285       0.01339907
+         60.00000000        60.00000000        408     0.41666667       0.02440917
+         70.00000000        70.00000000        463     0.73434125       0.02053920
+         80.00000000        80.00000000        465     0.91397849       0.01306366
+         90.00000000        90.00000000        450     0.97777778       0.00710861
+        100.00000000       100.00000000        430     0.82325581       0.01842584

@@ -1,0 +1,12 @@
+{
+  "id": 56020,
+  "created_at": "2026-08-10T19:22:03.889162+00:00",
+  "metadata": {
+    "initial_electron_state": 1,
+    "dr2.siv.readout.hi_trsh": 3.0,
+    "dr2.siv.readout.duration": 2.5e-05,
+    "do_mid_circuit_correction": false,
+    "dr2.siv.fast_readout.hi_trsh": 2.0,
+    "dr2.siv.fast_readout.duration": 5e-06
+  }
+}
