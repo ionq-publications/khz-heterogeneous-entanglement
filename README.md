@@ -7,7 +7,7 @@
 
 This repository contains the data and analysis notebooks to reproduce the figures in the paper.
 
-**arXiv**: __to be filled in__
+**arXiv**: [2610.10705](https://arxiv.org/abs/2610.10705)
 
 ## Setup
 
